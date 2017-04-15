@@ -27,6 +27,7 @@
     "babel-preset-es2015": "^6.0.0",
     "babel-preset-stage-2": "^6.0.0",
     "babel-register": "^6.0.0",
+    "babel-eslint": "^6.1.2",
     "chalk": "^1.1.3",
     "connect-history-api-fallback": "^1.1.0",
     "cooking": "^1.5.0",
@@ -34,6 +35,7 @@
     "cooking-less": "^1.0.5",
     "cooking-vue2": "^0.3.1",
     "css-loader": "^0.26.4",
+    "cooking-lint":"*",
     "eventsource-polyfill": "^0.9.6",
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.9.0",
@@ -57,6 +59,9 @@
     "webpack-dev-middleware": "",
     "webpack-dev-server": "",
     "webpack-hot-middleware": "",
-    "webpack-merge": ""
+    "webpack-merge": "",
+    "eslint": "2.13.1",
+    "eslint-loader": "^1.3.0",
+    "pre-commit":""
   }
 }

@@ -8,7 +8,7 @@ cooking.set({
   dist: './dist',
   template: './index.tpl',
   devServer: {
-    port: 8080,
+    port: 8089,
     publicPath: '/'
   },
 
@@ -33,7 +33,7 @@ cooking.set({
     'components': path.resolve(__dirname, './src/components'),
     'styles': path.resolve(__dirname, './src/styles'),
   },
-  extends: ['vue2','less','autoprefixer']
+  extends: ['vue2','lint','less','autoprefixer']
 });
 
 
