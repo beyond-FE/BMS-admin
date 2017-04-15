@@ -1,1 +1,3 @@
 src/common/js/util.js
+src/mock/data/user.js
+src/mock/mock.js

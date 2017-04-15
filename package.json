@@ -6,8 +6,12 @@
   "license": "MIT",
   "scripts": {
     "dev": "node cooking.conf.js",
-    "build": "node cooking.conf.js"
+    "build": "node cooking.conf.js",
+    "lint": "eslint --ext .js,.vue src"
   },
+  "pre-commit": [
+    "lint"
+  ],
   "dependencies": {
     "echarts": "",
     "vue": "",
